@@ -8,7 +8,8 @@
     <Company>Pampa Devs</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/felipe-allmeida/PampaDevs.Debug</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
   </PropertyGroup>
   <PropertyGroup>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
