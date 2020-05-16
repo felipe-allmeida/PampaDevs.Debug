@@ -28,6 +28,20 @@ This library has three types of log: `Log`, `LogWarning`, `LogError`.
 
 You also can pass a second parameter, a boolean, on the *log functions* to enable the stack trace loggin.
 
+```C#
+class Program
+{
+    static void Main()
+    {
+        Debug.Log("HelloWorld", true);
+        Debug.LogWarning("HelloWorld", true);
+        Debug.LogError("HelloWorld", true);
+    }
+}
+```
+
+### Output Example
+
 <h1 align="center">
   <img src="/assets/images/debugexample.png" alt="example" width="650px" />
 </h1>
