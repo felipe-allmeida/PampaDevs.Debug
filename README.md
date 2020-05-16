@@ -24,6 +24,14 @@ class Program
 }
 ```
 
+This library has three types of log: `Log`, `LogWarning`, `LogError`.
+
+You also can pass a second parameter, a boolean, on the *log functions* to enable the stack trace loggin.
+
+<h1 align="center">
+  <img src="/assets/images/debugexample.png" alt="example" width="650px" />
+</h1>
+
 ### Where can I get it?
 
 First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [PampaDevs.Debug](https://www.nuget.org/packages/PampaDevs.Debug/) from the package manager console:
