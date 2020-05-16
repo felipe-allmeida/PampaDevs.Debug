@@ -55,4 +55,4 @@ PM> Install-Package PampaDevs.Debug -Version 1.0.0
 
 ### License, etc.
 
-PampaDevs.Debug is Copyright &copy; 2020 [felipe-allmeida](https://github.com/felipe-allmeida) under the [MIT license](licenses/LICENSE.txt).
+PampaDevs.Debug is Copyright &copy; 2020 [felipe-allmeida](https://github.com/felipe-allmeida) under the [MIT license](PampaDevs.Debug/Licenses/LICENSE.txt).
