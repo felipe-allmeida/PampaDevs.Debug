@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>PampaDevs.Debug</PackageId>
+    <Title>Debug</Title>
+    <PackageDescription>Adds the class "Debug" with standardized logs 'Log', 'Warning', 'Error'. In addition, you can display the stack trace for the Log at run time.</PackageDescription>
+    <Version>1.0.0</Version>
+    <Authors>Felipe Almeida</Authors>
+    <Company>Pampa Devs</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RepositoryUrl></RepositoryUrl>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Licenses\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+  </ItemGroup>
 </Project>
