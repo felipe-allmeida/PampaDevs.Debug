@@ -64,7 +64,7 @@ class Program
 ### Default Log Ouput
 
 <div align="center">
-  <img src="/assets/images/defaultexample.png" alt="default" width="650px" />
+  <img src="/assets/images/defaultexample.png" alt="default" width="750px" />
 </div>
 
 The default logger by default is enabled.
@@ -74,7 +74,7 @@ You can enable/disable it by setting `Debug.DefaultLoggerEnabled` value;
 ### Console Log Output
 
 <div align="center">
-  <img src="/assets/images/consoleexample.png" alt="console" width="650px" />
+  <img src="/assets/images/consoleexample.png" alt="console" width="750px" />
 </div>
 
 The console logger by default is disabled.
