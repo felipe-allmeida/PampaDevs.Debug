@@ -19,32 +19,67 @@ class Program
 {
     static void Main()
     {
-        Debug.Log("HelloWorld");
+        Debug.Log("HelloWorld"); 
+        // Output: [Log]..........(0:0:0:738): HelloWorld
     }
 }
 ```
 
 This library has three types of log: `Log`, `LogWarning`, `LogError`.
 
-You also can pass a second parameter, a boolean, on the *log functions* to enable the stack trace loggin.
+You also can pass a second parameter, a boolean, on the **log method** to enable the stack trace log.
+
+```C#
+Debug.Log("HelloWorld", true);
+```
+
+### Example Code
 
 ```C#
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Debug.Log("HelloWorld", true);
-        Debug.LogWarning("HelloWorld", true);
-        Debug.LogError("HelloWorld", true);
+        Debug.Log("HelloWorld");
+        Debug.LogWarning("HelloWorld");
+        Debug.LogError("HelloWorld");
+
+        FirstMethod();
+    }
+
+    static void FirstMethod()
+    {
+        Debug.Log("Log with stacktrace from FirstMethod()", true);
+
+        SecondMethod("text", 10);
+    }
+
+    static void SecondMethod(string text, int number)
+    {
+        Debug.Log("Log with stacktrace and parameters from SecondMethod()", true);
     }
 }
 ```
 
-### Output Example
+### Default Log Ouput
 
 <h1 align="center">
-  <img src="/assets/images/debugexample.png" alt="example" width="650px" />
+  <img src="/assets/images/defaultexample.png" alt="default" width="650px" />
 </h1>
+
+The default logger by default is enabled.
+
+You can enable/disable it by setting `Debug.DefaultLoggerEnabled` value;
+
+### Console Log Output
+
+<h1 align="center">
+  <img src="/assets/images/consoleexample.png" alt="console" width="650px" />
+</h1>
+
+The console logger by default is disabled.
+
+You can enable/disable it by setting `Debug.ConsoleLoggerEnabled` value;
 
 ### Where can I get it?
 

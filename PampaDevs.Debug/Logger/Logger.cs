@@ -28,7 +28,7 @@ namespace PampaDevs.Debug.Logger
 
             _dictLoggers.Add(ELoggerType.Console, new LoggerData()
             {
-                IsActive = true,
+                IsActive = false,
                 LoggerType = ELoggerType.Console,
                 Builder = new ConsoleLoggerBuilder()
             });
