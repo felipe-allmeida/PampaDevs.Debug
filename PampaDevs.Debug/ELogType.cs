@@ -1,6 +1,6 @@
 ﻿namespace PampaDevs.Debug
 {
-    internal enum EDebugTypes
+    internal enum ELogType
     {
         Log,
         Warning,
